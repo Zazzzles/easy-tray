@@ -46,10 +46,10 @@
 
 > Use `this.refs.tray.show('success', 'Message', 1000)` to open the tray
 
-> `.show()` has the following params: 
-`type` which is an enum of `warn` `success` or `info`
-`message` which is the content of the notification
-`duration` in milis for how long the notification should be displayed
+`.show()` has the following params: 
+ * `type` which is an enum of `warn` `success` or `info`
+ * `message` which is the content of the notification
+ * `duration` in milis for how long the notification should be displayed
 
 ## Installation
 
