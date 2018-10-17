@@ -46,6 +46,12 @@
 
 > Use `this.refs.tray.show('success', 'Message', 1000)` to open the tray
 
+`<Tray/>` has the following props:
+* `ref` (String) can be any string used to reference the tray
+* `animationDuration` (Number) duration in milis of enter and exit animations
+* `backgroundColor` (String) Hex for background color of tray
+* `color` (String) Hex for color of icon and text on the tray
+
 `.show()` has the following params: 
  * `type` which is an enum of `warn` `success` or `info`
  * `message` which is the content of the notification
