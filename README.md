@@ -17,15 +17,15 @@
           <View style={styles.container}>
             <StatusBar hidden />
              
-            <TouchableOpacity onPress={() => this.refs.tray.show('warn', 'Warning!', 1000)}>
+            <Button onPress={() => this.refs.tray.show('warn', 'Warning!', 1000)}>
               <Text>Warn!</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => this.refs.tray.show('info', 'Here is some handy info!', 1000)}>
+            </Button>
+            <Button onPress={() => this.refs.tray.show('info', 'Here is some handy info!', 1000)}>
               <Text>Info!</Text>
-            </TouchableOpacity>
-            <TouchableOpacity onPress={() => this.refs.tray.show('success', 'You did something right!', 1000)}>
+            </Button>
+            <Button onPress={() => this.refs.tray.show('success', 'You did something right!', 1000)}>
               <Text>Success!</Text>
-            </TouchableOpacity>
+            </Button>
             
             <Tray
               ref="tray"
