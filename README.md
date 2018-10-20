@@ -1,6 +1,6 @@
 # Easy notification tray for React Native with Expo
 
-> A notification tray for showing errors, infomation and success states
+> A notification tray for showing errors, infomation and success states. With full support for iOS and Android
 
 ![Example](https://media.giphy.com/media/9D34xNNLCpmgiQymmV/giphy.gif)
 
